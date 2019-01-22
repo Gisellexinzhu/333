@@ -1,0 +1,95 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 78%;
+  margin: auto;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+ul, li {
+  padding: 0 60px 0 60px;
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Avenir', 'Helvetica', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+  color: #000;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: 'Avenir', 'Helvetica', sans-serif;
+  color: #000;
+  font-weight: 300;
+  letter-spacing: 0.04em;
+}
+
+.nav {
+  text-align: center;
+  padding-top: 50px;
+}
+
+a:hover {
+  color: #58A6CF;
+}
+
+
+.feature {
+  display: flex;
+  align-items: center;
+  margin top: 40px
+}
+
+.feature h1 {
+  font-family: 'Avenir', 'Helvetica', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 330px;
+  letter-spacing: 0.08em;
+  color: #191919;
+  z-index: -5;
+  position: absolute;
+  top: -115px;
+
+}
+
+.feature_image img {
+  width: 600px;
+  height: auto;
+  z-index: 5;
+  margin: 250px -100px 0 0;
+}
+
+.feature_image, .Artists {
+    margin: auto;
+}
+
+.feature p {
+  padding: 0;
+  margin: 0;
+  font-family: 'Avenir', 'Helvetica', sans-serif;
+  font-size: 14px;
+  position: relative;
+  margin: 410px 80px 0 0;
+  line-height: 1.4;
+}
+
+
+.Artists img {
+  width: 100%;
+}

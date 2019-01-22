@@ -1,0 +1,39 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+ul, li {
+  padding: 0 60px 0 60px;
+  display: inline;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Avenir', 'Helvetica', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.025em;
+  color: #000;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: 'Avenir', 'Helvetica', sans-serif;
+  color: #000;
+  font-weight: 300;
+  letter-spacing: 0.04em;
+}
+
+.nav {
+  text-align: center;
+  padding-top: 50px;
+}
+
+a:hover {
+  color: #58A6CF;
+}

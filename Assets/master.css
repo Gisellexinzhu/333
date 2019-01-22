@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  height: 200px;
+}
+
+nav ul li {
+  display: inline;
+  text-align: center;
+  padding: 20px;
+  font: 10px/1 "avenir", sans-serif;
+}
+
+ul {
+  padding-top: 30px;
+}
+
+#artbig {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.grid {
+  margin: 5%;
+  padding: 0;
+
+}
+
+.pop {
+  margin: 0;
+  padding: 0;
+}
+
+.art {
+  margin: 0;
+  margin-top: 100px;
+  padding: 0;
+
+}
+
+/*img {
+  width: 30%;
+  margin: 15px;
+}*/
+
+.grid img {
+  float: left;
+  width: 30%;
+  margin: 15px;
+}
+
+h4 {
+  font: 15px/1 "avenir", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 0.3em;
+  transform: rotate(-90deg);
+  transform-origin: 0;
+  position: absolute;
+
+}
+
+.grid img:hover {
+  background: blue;
+  opacity: 0.2;
+}
